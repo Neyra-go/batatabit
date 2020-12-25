@@ -389,7 +389,7 @@ main
     min-width: 320px;
     height: auto;
     padding: 20px 10px;
-    background: var(--warm-black);
+    background: var(--warm-black)/*#201E1C*/;
 }
 
 .product-detail--batata-logo
@@ -437,7 +437,7 @@ main
     height: 150px;
     margin: 15px auto;
     padding: 15px;
-    background var(--black);
+    background: var(--black);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
@@ -469,4 +469,61 @@ main
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+
+.product-detail--card .eye
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/eye.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-detail--card .dollar-sign
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/dollar-sign.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-detail--card .check-circle
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/check-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bitcoinbaby-img-container
+{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/imgs/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bitcoinbaby-img-container h2
+{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
 }
